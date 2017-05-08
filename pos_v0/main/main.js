@@ -11,7 +11,7 @@ function getCartItemSubtotal(inputs) {
 }
 
 function getCartItemTotal(itemSubtotal) {
-   var total = {total:0,receipt:itemSubtotal);
+   var total = {total:0,receipt:itemSubtotal};
 
   for (var i = 0;i<itemSubtotal.length;i++){
    total.total += itemSubtotal[i].subTotal;
