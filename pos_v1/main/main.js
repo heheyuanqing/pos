@@ -75,7 +75,7 @@ function getCartItem(tags) {
   for (var i = 0; i < tags.length; i++) {
     var t = findItem(tags[i], allItem)
     if (tags[i].length == 10) {
-      cartItem.push({former: allItem[t], tag: 1.00});
+      cartItem.push({former: allItem[t], tag: 1});
 
     }
     else {
